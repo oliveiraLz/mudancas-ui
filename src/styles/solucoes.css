@@ -1,0 +1,88 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    body{
+        background-color: #C5EBAA;
+        font-family: Montserrat;
+    }
+
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fafad2;
+    margin-bottom: 2rem;
+    
+    .logo-container{
+        display: flex;
+        font-size: 2rem ;
+        align-items: center;
+
+        .logo{
+            width: 3rem;
+    
+        }
+        .logo-title{
+            color: #1ABE27;
+        }
+    }
+
+    .redirect-links {
+        display: flex;
+        list-style-type: none;
+        text-decoration: none;
+        flex-direction: row;
+        gap: 1.5rem;
+        
+        a{
+            color: #1ABE27;
+            text-decoration: none;
+        }
+    }
+
+}
+
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    gap: 0.5rem;
+    width: 100%;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-self: center;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        .titulo{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-self: center;
+            font-size: 3rem;
+            font-style: bold;
+
+         
+        }
+
+        .subTitles{
+            font-size: 1.4rem;
+        }
+
+
+        p {font-size: 1rem;}
+
+        h2,h3,h4{
+            display: flex;
+            align-self: center;
+            font-size: 2rem;
+        }
+    }
+}
